@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;margin:0px;padding:0px;overflow:hidden }
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+    color: darkslategray;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: x-large;
+}
+
+
+textarea {
+    border: none;
+    outline: none;
+    width: 95%;
+    height: 16px;
+    line-height: 100%;
+    font-size: 0.9em;
+    color: dimgray;
+    resize: none;
+    -webkit-appearance: none;
+}
+
+.fa {
+    vertical-align: 100px;
+}
+
+.container {
+    margin: 30px;
+}
+
+.inner-container {
+    position: absolute;
+    top:80px;left:30px;right:30px;bottom:0px;
+    border: solid 1px gainsboro;
+    padding: 30px;
+}
+
+li:before {
+    font-family: 'FontAwesome';
+    content: '\f0da';
+    margin:0 10px 0 -0px;
+    color: cadetblue;
+    vertical-align: top;
+}
+
+#inner-editor {
+    height: 16px !important;
+}
+
+.caret-test {
+    border: solid 1px !important;
+}
+
+
+
+
+
+
+
+
+
